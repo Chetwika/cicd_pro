@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>HotelMngt</groupId>
-  <artifactId>HotelMngt-App</artifactId>
-  <version>0.1</version>
-  <packaging>war</packaging>
+  <groupId>HotelManagement</groupId>
+  <artifactId>HotelManagement-App</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>HotelManagement-App</name>
   <url>http://maven.apache.org</url>
@@ -22,24 +22,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-<plugins>
-<plugin>
-<groupId>org.apache.maven.plugins</groupId>
-<artifactId>maven-war-plugin</artifactId>
-<version>3.2.3</version>
-<configuration>
-<failOnMissingWebXml>false</failOnMissingWebXml>
-<archive>
-<manifest>
-<addClasspath>true</addClasspath>
-<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-<classpathLayoutType>repository</classpathLayoutType>
-</manifest>
-</archive>
-</configuration>
-</plugin>
-</plugins>
-</build>
 </project>
